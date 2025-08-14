@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h3 class="news-card-title">${news.title}</h3>
                         <p class="news-card-date">${formatDate(news.date)}</p>
                         <p class="news-card-excerpt">${news.content}</p>
-                        <a href="/news/news-detail.html?id=${news.id}" class="news-card-link">Mehr lesen →</a>
+                        <a href="https://grueneeule.de/news/news-detail.html?id=${news.id}" class="news-card-link">Mehr von GrüneEule lesen →</a>
                     </div>
                 </div>
             `).join('');
